@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+        <a href="#"><img src="logo.png" id="logo"></a>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">Free courses</a></li>
+            <li><a href="#">Add New cours</a></li>
+        </ul>
+    </header>
+    <div class="head">
+    <p>Add a New Cours</p>
+    
+    </div>
+    <div class="body">
+    <form action="index2.html" class="course">
+        <label for="firstName">Your First Name</label><br>
+        <input type="text" id="firstName" name="Your First Name" placeholder="Your First Name"><br><br>
+        <label for="lastName">Your Last Name</label><br>
+        <input type="text" id="lastName" name="Your Last Name" placeholder="Your Last Name"><br><br>
+        <label for="firstName">Your email</label><br>
+        <input type="email" id="mail" name="Your email" placeholder="example@gmail.com                            📩"><br><br>
+        <label for="firstName">Course Field</label><br>
+        <input type="text" id="Field"  list="courseFile" >
+        <datalist id="courseFile">
+            <option value="Computer science"></option>
+            <option value="Devolpment"></option>
+        </datalist><br><br>
+        <label for="firstName"">Course Title</label><br>
+        <input type="text" id="title" name="Course Title" placeholder="Course Title"><br><br>
+        <label for="firstName">Offered By</label><br>
+        <input type="text" id="by" name="Offered By" placeholder="Offered By"><br><br>
+        <label for="firstName">Duration</label><br>
+        <input type="time" id="Duration" name="Duration" ><br><br>
+        <label for="firstName">Issuing Organization</label><br>
+        <input type="text" id="Organization" name="Issuing Organization" placeholder="Issuing Organization"><br><br>
+        <label for="firstName">Certified ?!</label><br>
+        <input type="text" id="Certified" list="certified">
+        <datalist id="certified">
+            <option value="Yes"></option>
+            <option value="No"></option>
+        </datalist><br><br>
+        <label for="firstName">link to this Course</label><br>
+        <input type="url" id="link" name="Link course" placeholder="Link course"><br><br>
+        <span class="heading">Rate this Course</span>
+        <span class="fa fa-star checked">⭐</span>
+        <span class="fa fa-star checked">⭐</span>
+        <span class="fa fa-star checked">⭐</span>
+        <span class="fa fa-star checked">⭐</span>
+        <span class="fa fa-star">⭐</span>
+        <p>Add more Details</p>
+        <input type="text" id="message">
+        <br><br>
+        <span action="index2.html">
+        <input type="submit" value="submit" onclick="passvalues()"/>
+        
+    </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

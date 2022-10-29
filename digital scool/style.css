@@ -1,0 +1,109 @@
+body{
+   background-color: url("liquid-gold-background-4415146.jpg");
+   margin:0 ;
+   padding: 0;
+   font-family:'Courier New', Courier, monospace;
+}
+header{
+    background-color: #c59d5f;
+    position: relative;
+   display: flex;
+   margin:auto ;
+   padding: 30px 10px;
+   text-align:right;
+   justify-content: space-between;
+   align-items: center;
+  
+   
+}
+.body{
+margin-left: 35%;
+background-color:#c59d5f ;
+height: auto;
+width: 400px;
+border-radius: 08px;
+
+
+}
+ul li{
+    display: inline-block;
+    float: ;
+    text-align: center;
+    line-height: .9em;
+    font-weight: bold;
+    list-style-type: auto;
+    margin: 20px;
+    
+}
+ul li a {
+  color: aliceblue;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight:300px;
+    
+}
+ul li a:hover{
+  color:black;
+  transition: .5s;
+}
+.head{
+    font-family:  "Times New Roman", Times, serif;
+    margin-left: 35%;
+    font-size: xx-large;
+    
+}
+.course{
+   padding: 30px;
+}
+#logo{
+    width: 50px;
+    height: 50px;
+    background-color: aliceblue;
+    border-radius: 50%;
+   margin-right: px;
+   float:left;
+   
+}
+#logo:hover{
+  background-color:black;
+  transition: .5s;
+}
+
+input {
+    border: 2px solid;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin: 0.25rem;
+    min-width: 300px;
+    padding: 0.5rem;
+    transition: background-color 0.5s ease-out;
+  }
+  input:optional {
+    border-color: gray;
+  }
+  input:required {
+    border-color:gray;
+  }
+  input:invalid {
+    border-color: red;
+  }
+  .result{
+    margin-left: 35%;
+    background-color:#c59d5f ;
+    height: auto;
+    width: 400px;
+    border-radius: 08px;
+    
+    
+    }
+    h3{
+      
+    
+    font-size: 1rem;
+    margin: 0.25rem;
+    min-width: 300px;
+    padding: 0.5rem;
+    }
+    #message{
+      height: 50px;
+    }
